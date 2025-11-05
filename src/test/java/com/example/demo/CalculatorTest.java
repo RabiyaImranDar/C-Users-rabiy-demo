@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
     private Calculator calc;
-    private final int a = 9, b = 3;
+    private final int a = 9, b = 3, c = 5;
     private final double aa= 9, bb = 3;
     @BeforeEach
     void setUp() {
