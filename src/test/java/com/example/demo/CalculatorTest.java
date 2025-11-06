@@ -12,7 +12,7 @@ class CalculatorTest {
     @BeforeEach
     void setUp() {
         calc = new Calculator();
-        //
+        // new comment to trigger github actions
     }
 
     @Test
