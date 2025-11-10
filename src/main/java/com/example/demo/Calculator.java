@@ -18,7 +18,7 @@ public class Calculator {
     }
     public int multiply(int a , int b){
         return a * b;
-
+// yaml work try
     }
     public int square(int a ){
         return a * a;
