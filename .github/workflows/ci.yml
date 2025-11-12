@@ -25,7 +25,14 @@
               cache: 'maven'
 
           - name: Build with maven
-            run: mvn -B package --file pom.xml
+            run: mvn -B clean --file pom.xml
+
+      Test:
+        needs: build
+        runs-on: ubuntu-latest
+
+        steps:
+          - uses: actions/checkout@v4
 
           - name: Run tests
             run: mvn test
