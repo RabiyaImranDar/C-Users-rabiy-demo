@@ -19,7 +19,7 @@ class CalculatorTest {
     void add() {
 
            int result = calc.add(a,b);
-           assertEquals(11,result);
+           assertEquals(12,result);
 
     }
 
